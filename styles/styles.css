@@ -1,3 +1,8 @@
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    line-height: 1.5;
+}
+
 nav {
     background-color: darkblue;
     padding: 10px;
@@ -12,11 +17,6 @@ nav a {
 h1 {
     color: darkblue;
     text-align: center;
-}
-
-body {
-    font-family: Arial, Helvetica, sans-serif;
-    line-height: 1.5;
 }
 
 main {
@@ -42,7 +42,7 @@ aside {
     padding: 1rem;
     background-color: #eee;
     color: #333;
-    text-align: center
+    text-align: center;
 }
 
 aside p {
