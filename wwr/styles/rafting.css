@@ -1,5 +1,6 @@
 :root {
   --primary-color: #0B3D59;   /* Deep blue of the name */
+  --secondary-color: #2B95C2; /* Bright blue wave */
   --accent1-color: #FF7A00;   /* Action/adventure game */
   --accent2-color: #555555;   /* Gray for secondary text */
   
@@ -53,8 +54,8 @@ h1{
     width: 100%;
     padding: 12px;
     text-align: center;
-    opacity: 0.7;
-    background-color: var(--accent1-color);
+    
+    background-color: rgba(255, 122, 0, 0.8);
     color: #ffffff;
 }
 
