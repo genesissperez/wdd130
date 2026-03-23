@@ -1,6 +1,5 @@
 :root {
   --primary-color: #0B3D59;   /* Deep blue of the name */
-  --secondary-color: #2B95C2; /* Bright blue wave */
   --accent1-color: #FF7A00;   /* Action/adventure game */
   --accent2-color: #555555;   /* Gray for secondary text */
   
@@ -85,8 +84,10 @@ article{
 section p{
     text-align: justify;
     line-height: 1.5;
+    
 }
 
 footer{
     text-align: center;
+
 }
