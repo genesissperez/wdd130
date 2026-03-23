@@ -1,6 +1,5 @@
 :root {
-  --primary-color: #0B3D59;   /* Deep blue of the name */
-  --secondary-color: #2B95C2; /* Bright blue wave */
+  --primary-color: #0B3D59;   /* Deep blue of the name */  
   --accent1-color: #FF7A00;   /* Action/adventure game */
   --accent2-color: #555555;   /* Gray for secondary text */
   
@@ -48,7 +47,7 @@ nav,p,section,article {
     height: auto;
 }
 
-h1{
+.hero h1{
     position: absolute;
     top: 15px;
     width: 100%;
@@ -59,7 +58,7 @@ h1{
     color: #ffffff;
 }
 
-article{
+.hero article{
     position: absolute;
     top: 70%;
     width: 80%;
