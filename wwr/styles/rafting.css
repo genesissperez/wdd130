@@ -23,7 +23,7 @@ header, main, footer{
     margin: 0 auto ;
 }
 
-h1,h2,h3{
+h1,h2{
     font-family: var(--heading-font);
     color: var(--primary-color);
 }
@@ -52,10 +52,13 @@ nav,p,section,article {
     top: 15px;
     width: 100%;
     padding: 12px;
-    text-align: center;
-    
+    text-align: center;    
     background-color: rgba(255, 122, 0, 0.8);
     color: #ffffff;
+}
+
+.hero h2{
+    font-size: 11pt;
 }
 
 .hero article{
