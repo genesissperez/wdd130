@@ -1,0 +1,92 @@
+:root {
+  --primary-color: #0B3D59;   /* Deep blue of the name */
+  --secondary-color: #2B95C2; /* Bright blue wave */
+  --accent1-color: #FF7A00;   /* Action/adventure game */
+  --accent2-color: #555555;   /* Gray for secondary text */
+  
+  --heading-font: "Verdana", "Geneva", sans-serif;
+  --body-font: Arial, Helvetica, sans-serif;
+}
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: var(--body-font);
+    color: var(--accent2-color);
+}
+
+header, main, footer{
+    width: 840px;
+    margin: 0 auto ;
+}
+
+h1,h2{
+    font-family: var(--heading-font);
+    color: var(--primary-color);
+}
+
+nav,p,section,article {
+    margin: 16px;
+    padding: 8px;
+}
+
+.socialmedia a{
+    text-decoration: none;
+}
+
+.hero { 
+    position: relative;
+}
+
+.hero img{
+    display: block;
+    width: 100%;
+    height: auto;
+}
+
+h1{
+    position: absolute;
+    top: 15px;
+    width: 100%;
+    padding: 12px;
+    text-align: center;
+    opacity: 0.7;
+    background-color: var(--accent1-color);
+    color: #ffffff;
+}
+
+article{
+    position: absolute;
+    top: 70%;
+    width: 80%;
+    max-width: 600px;
+    left: 25%;   
+    padding: 6px;
+    background-color: rgba(255, 255, 255, 0.85); /* Translucent white to show the background */
+    border-radius: 8px; /* Rounded corners for a modern look */
+    border-bottom: 4px solid var(--accent1-color); 
+    box-shadow: 0 4px 10px rgba(0,0,0,0.3);
+    font-size: 10pt;
+    text-align: justify;
+
+}
+
+.hero article img{
+    float: right;
+    width: 90px;
+    margin-left: 15px;   
+
+}
+
+section p{
+    text-align: justify;
+    line-height: 1.5;
+}
+
+footer{
+    text-align: center;
+}

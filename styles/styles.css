@@ -1,3 +1,9 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
 body {
     font-family: Arial, Helvetica, sans-serif;
     line-height: 1.5;
@@ -19,48 +25,68 @@ h1 {
     text-align: center;
 }
 
-main {
-    max-width: 840px;
-    text-align: justify;
-    padding-bottom: 5px;
-}
-
-main img {
+img {
     width: 150px;
     height: auto;
     border: 1px solid steelblue;
     padding: 2px;
-    box-shadow: 0 0 30px gray;
-    margin-bottom: 13px;
+    box-shadow: 0 0 30px gray;    
 
 }
 
-aside {
-    width: 20rem;
-    margin: 1rem;
-    border: 0.5px solid rgb(0 0 0 / 0.2);
-    padding: 1rem;
-    background-color: #eee;
-    color: #333;
-    text-align: center;
+p {
+    padding: 0;
 }
 
 aside p {
     text-align: justify;
 }
 
-aside img {
-    width: 200px;
-    height: auto;
+main {
+    max-width: 840px;
+    text-align: justify;
 }
 
-p {
-    padding: 0px;
+main img{
+    width: 130px;
+    height: auto;
+    float: right;
+    margin-left: 15px;
+}
+
+aside {
+    width: 320px;
+    text-align: center;
+}
+
+aside img{
+    width: 200px;
+    height: auto;
+    margin-bottom: 13px;
+}
+
+aside h2{
+    position: relative;
+    top: 180px;
+    left: 15%;
+    color: blanchedalmond;
+    font-size: 12pt;
 
 }
 
 footer {
-    margin-top: 2em;
+    margin-top: 15px;
     border-top: 1px solid #000;
     text-align: center;
 }
+
+/* Class Selectors */
+.box{
+    margin: 1rem;
+    border: 1px solid rgb(0 0 0 / 10%);
+    padding: 1rem;
+    background-color: ghostwhite;
+    color: darkblue;
+    
+}
+
