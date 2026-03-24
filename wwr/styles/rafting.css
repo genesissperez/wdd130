@@ -52,8 +52,9 @@ nav,p,section,article {
     top: 15px;
     width: 100%;
     padding: 12px;
-    text-align: center;    
-    background-color: rgba(255, 122, 0, 0.8);
+    text-align: center; 
+    opacity: 0.9;   
+    background-color: var(--primary-color);
     color: #ffffff;
 }
 
