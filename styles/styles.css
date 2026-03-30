@@ -4,25 +4,37 @@
     box-sizing: border-box;
 }
 
-body {
+header, footer, .grid {
+    max-width: 840px;
+    margin: 0 auto;
+}
+
+body{
     font-family: Arial, Helvetica, sans-serif;
-    line-height: 1.5;
+    text-align: justify;
+    line-height: 1.5;    
 }
 
 nav {
     background-color: darkblue;
     padding: 10px;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
 }
 
 nav a {
     color: white;
+    text-decoration: none;
     display: block;
-    padding: 20px;
+    padding: 1.2rem;
 }
 
 h1 {
     color: darkblue;
+    margin: 10px 0;
     text-align: center;
+    border-bottom: 2px dotted purple;
 }
 
 img {
@@ -30,7 +42,7 @@ img {
     height: auto;
     border: 1px solid steelblue;
     padding: 2px;
-    box-shadow: 0 0 30px gray;    
+    box-shadow: 0 0 10px gray;    
 
 }
 
@@ -38,13 +50,28 @@ p {
     padding: 0;
 }
 
-aside p {
-    text-align: justify;
+.grid {
+    display: grid;
+    align-items: center;
 }
 
 main {
-    max-width: 840px;
+    grid-column: 2/3;
+    margin: 1rem;
+    font-size: 12pt;
+}
+
+aside {
+    position: relative;
+    width: 20rem; 
+    text-align: center;
+    grid-column: 1/2;
+    grid-row: 1/2;
+}
+
+aside p{
     text-align: justify;
+    margin-top: 10px;
 }
 
 main img{
@@ -54,15 +81,9 @@ main img{
     margin-left: 15px;
 }
 
-aside {
-    width: 320px;
-    text-align: center;
-}
-
 aside img{
     width: 200px;
     height: auto;
-    margin-bottom: 13px;
 }
 
 aside h2{
