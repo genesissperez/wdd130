@@ -1,7 +1,8 @@
 :root {
   --primary-color: #0B3D59;   /* Deep blue of the name */  
-  --accent1-color: #FF7A00;   /* Action/adventure game */
-  --accent2-color: #555555;   /* Gray for secondary text */
+  --secondary-color: #555555; /*For clean, readable body text */
+  --accent1-color: #FF7A00;   /* For excitement and "Call to Action"*/
+  --accent2-color: #f4f4f4;
   
   --heading-font: "Verdana", "Geneva", sans-serif;
   --body-font: Arial, Helvetica, sans-serif;
@@ -15,26 +16,43 @@
 
 body{
     font-family: var(--body-font);
-    color: var(--accent2-color);
+    color: var(--secondary-color);
 }
 
 header, main, footer{
-    width: 840px;
+    width: 960px;
     margin: 0 auto ;
 }
+
+header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+}
+
+nav ul{
+    list-style: none;
+    display: flex;
+}
+
+nav a{
+    color: var(--primary-color);
+    font-weight: bold;
+    text-decoration: none;
+    margin-left: 20px;
+    padding: 5px 10px;       
+}
+
 
 h1,h2{
     font-family: var(--heading-font);
     color: var(--primary-color);
 }
 
-nav,p,section,article {
-    margin: 16px;
-    padding: 8px;
-}
-
-.socialmedia a{
-    text-decoration: none;
+p,section,article {
+    margin: 10px 0;
+    padding: 0px;
 }
 
 .hero { 
@@ -49,7 +67,7 @@ nav,p,section,article {
 
 .hero h1{
     position: absolute;
-    top: 15px;
+    top: 20px;
     width: 100%;
     padding: 12px;
     text-align: center; 
@@ -78,8 +96,6 @@ nav,p,section,article {
 
 }
 
-
-
 .hero article img{
     float: right;
     width: 80px;
@@ -87,13 +103,96 @@ nav,p,section,article {
 
 }
 
+.history-container{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr; 
+    gap: 20px;
+    align-items: center;
+    padding: 20px 0px; 
+}
+
+.history-container h2 {
+    grid-column: 1 / 4;
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.history-container img {
+    width: 95%;
+    border: 5px solid var(--primary-color);
+    border-radius: 10px;
+}
+
+.history-container p {
+    margin: 0;
+}
+
+.adventure-section h2 {
+    text-align: center;
+    margin: 30px 0;
+    color: var(--primary-color);
+    margin-bottom: 25px;
+}
+
+.adventure-section {
+    padding: 0 20px 40px 20px;
+    text-align: center;
+}
+
+.adventure-gallery {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr; 
+    gap: 15px;
+    margin: 20px 0;
+}
+
+.adventure-gallery figure {    
+    text-align: center;
+}
+
+.adventure-gallery img {
+    width: 100%;
+    height: 150px;
+    border: 1px solid var(--accent1-color);
+    border-radius: 8px;
+}
+
+.adventure-gallery figcaption {
+    font-style: italic;
+    font-size: 0.85rem;
+    margin-top: 8px;
+    color:  var(--primary-color);
+    line-height: 1.2;
+}
+
 section p{
     text-align: justify;
     line-height: 1.5;
-    
+        
 }
 
+
 footer{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+    background-color: var(--primary-color);
+    margin-top: 50px;
     text-align: center;
 
+}
+
+footer p {
+    margin: 0; 
+    font-size: 1rem; 
+    color: var(--accent2-color); 
+}
+
+.socialmedia{
+    display: flex;
+    gap: 15px;
+}
+.socialmedia a{
+    text-decoration: none;
 }
