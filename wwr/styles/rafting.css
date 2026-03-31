@@ -2,11 +2,10 @@
   --primary-color: #0B3D59;   /* Deep blue of the name */  
   --secondary-color: #555555; /*For clean, readable body text */
   --accent1-color: #FF7A00;   /* For excitement and "Call to Action"*/
-  --accent2-color: #f4f4f4;
-  
+    
   --white: #ffffff;
   --white-translucent: rgba(255, 255, 255, 0.85);
-  --shadow-color: rgba(0, 0, 0, 0.3)
+  --shadow-color: rgba(0, 0, 0, 0.3);
 
   --heading-font: "Verdana", "Geneva", sans-serif;
   --body-font: Arial, Helvetica, sans-serif;
