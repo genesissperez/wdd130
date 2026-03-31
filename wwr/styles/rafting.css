@@ -2,10 +2,9 @@
   --primary-color: #0B3D59;   /* Deep blue of the name */  
   --secondary-color: #555555; /*For clean, readable body text */
   --accent1-color: #FF7A00;   /* For excitement and "Call to Action"*/
-    
-  --white: #ffffff;
-  --white-translucent: rgba(255, 255, 255, 0.85);
-  --shadow-color: rgba(0, 0, 0, 0.3);
+  --accent2-color: #ffffff;  
+  --white-translucent: #FFFFFFD9;
+  --shadow-color: #0000004D;
 
   --heading-font: "Verdana", "Geneva", sans-serif;
   --body-font: Arial, Helvetica, sans-serif;
@@ -76,7 +75,7 @@ p,section,article {
     text-align: center; 
     opacity: 0.9;   
     background-color: var(--primary-color);
-    color: var(--white);
+    color: var(--accent2-color);
 }
 
 .hero h2{
@@ -111,7 +110,7 @@ p,section,article {
     grid-template-columns: 1fr 1fr 1fr; 
     gap: 20px;
     align-items: center;
-    padding: 20px 0px; 
+    padding: 30px 0px; 
 }
 
 .history-container h2 {
@@ -181,7 +180,7 @@ footer{
     align-items: center;
     padding: 20px;
     background-color: var(--primary-color);
-    color: var(--white);
+    color: var(--accent2-color);
     margin-top: 50px;
     text-align: center;
 
@@ -190,7 +189,7 @@ footer{
 footer p {
     margin: 0; 
     font-size: 1rem; 
-    color: var(--white); 
+    color: var(--accent2-color); 
 }
 
 .socialmedia{
