@@ -27,10 +27,17 @@ header, main, footer{
 }
 
 header{
-    display: flex;
+    display: grid;
     justify-content: space-between;
     align-items: center;
+    grid-template-columns: auto 1fr;
     padding: 20px;
+    width: 960px;
+    margin: 0 auto;
+}
+
+nav{
+    justify-self: end;
 }
 
 nav ul{
