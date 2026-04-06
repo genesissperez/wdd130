@@ -33,8 +33,6 @@ header{
     align-items: center;
     grid-template-columns: auto 1fr;
     padding: 20px;
-    width: 960px;
-    margin: 0 auto;
 }
 
 nav{
