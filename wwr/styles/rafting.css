@@ -518,7 +518,7 @@ button {
     text-align: justify;
 }
 
-.trip-description h3 {
+.trip-description h2 .trip-description h3 {
     margin-bottom: 15px;
     border-bottom: 2px solid var(--accent1-color);
     display: inline-block;
